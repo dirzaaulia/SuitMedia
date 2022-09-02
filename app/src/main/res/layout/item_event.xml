@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_24"
+    app:cardCornerRadius="@dimen/spacing_16">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/spacing_16">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/spacing_90"
+        android:layout_height="@dimen/spacing_90"
+        android:src="@drawable/placeholder_event"
+        app:shapeAppearanceOverlay="@style/Theme.SuitMedia.ShapeAppearanceOverlay.CornerSize.8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Theme.SuitMedia.TextView.Bold.16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_12"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Card Title"/>
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/Theme.SuitMedia.TextView.Regular.14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:textColor="@color/text_event_description"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/Theme.SuitMedia.TextView.Regular.10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:textColor="@color/text_event_description"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintEnd_toStartOf="@id/time"
+        tools:text="15 Jan 2022"/>
+
+    <TextView
+        android:id="@+id/time"
+        style="@style/Theme.SuitMedia.TextView.Regular.10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:textColor="@color/text_event_description"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        app:layout_constraintStart_toEndOf="@id/date"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="9:00 AM"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

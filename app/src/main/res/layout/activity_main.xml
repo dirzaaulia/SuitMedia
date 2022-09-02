@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".screens.main.MainActivity">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/bg_bright"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_220"
+        android:background="@drawable/bg_bright"
+        android:backgroundTint="#FF6700"
+        android:backgroundTintMode="screen"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_welcome_title"
+        style="@style/Theme.SuitMedia.TextView.Bold.18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_48"
+        android:text="@string/welcome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_welcome_description"
+        style="@style/Theme.SuitMedia.TextView.Regular.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_10"
+        android:text="@string/welcome_description"
+        app:layout_constraintTop_toBottomOf="@id/label_welcome_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <include
+        android:id="@+id/view_welcome"
+        layout="@layout/view_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_48"
+        android:layout_marginHorizontal="@dimen/spacing_32"
+        app:layout_constraintTop_toBottomOf="@id/label_welcome_description"/>
+
+    <TextView
+        style="@style/Theme.SuitMedia.TextView.Regular.12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_24"
+        android:layout_marginBottom="@dimen/spacing_32"
+        android:text="@string/copyright"
+        android:textColor="@color/text_copyright"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/view_welcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

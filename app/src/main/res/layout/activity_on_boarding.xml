@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".screens.onboarding.OnBoardingActivity">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white">
+
+    <View
+        android:id="@+id/bg_bright"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_220"
+        android:background="@drawable/bg_bright"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <include
+        layout="@layout/view_onboarding_ornament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_hello"
+        style="@style/Theme.SuitMedia.TextView.Bold.24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_50"
+        android:layout_marginStart="@dimen/spacing_32"
+        android:text="@string/hello_comma"
+        android:textColor="@color/text_onboarding_hello"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/Theme.SuitMedia.TextView.Bold.24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_10"
+        android:textColor="@color/seed"
+        app:layout_constraintTop_toBottomOf="@id/label_hello"
+        app:layout_constraintStart_toStartOf="@id/label_hello"
+        tools:text="Arman!"/>
+
+    <Button
+        android:id="@+id/button_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_74"
+        android:layout_marginHorizontal="@dimen/spacing_32"
+        android:text="@string/choose_event"
+        android:textSize="@dimen/font_18"
+        app:layout_constraintTop_toBottomOf="@id/name"/>
+
+    <Button
+        android:id="@+id/button_guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_16"
+        android:layout_marginHorizontal="@dimen/spacing_32"
+        android:text="@string/choose_guest"
+        android:textSize="@dimen/font_18"
+        app:layout_constraintTop_toBottomOf="@id/button_event"/>
+
+    <ImageView
+        android:id="@+id/ornament_suitmedia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/spacing_64"
+        android:layout_marginBottom="@dimen/spacing_56"
+        android:layout_marginHorizontal="@dimen/spacing_58"
+        android:background="@drawable/img_suitmedia"
+        app:layout_constraintTop_toBottomOf="@id/button_guest"
+        app:layout_constraintBottom_toTopOf="@id/ornament_bottom"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/ornament_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_50"
+        android:background="@drawable/img_bg_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="ContentDescription"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

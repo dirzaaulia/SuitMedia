@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_40"
+    android:layout_marginHorizontal="@dimen/spacing_32">
+
+  <com.google.android.material.imageview.ShapeableImageView
+      android:id="@+id/avatar"
+      android:layout_width="@dimen/spacing_90"
+      android:layout_height="@dimen/spacing_90"
+      android:padding="@dimen/spacing_1"
+      android:scaleType="fitXY"
+      android:src="@drawable/avatar_placeholder"
+      app:shapeAppearanceOverlay="@style/Theme.SuitMedia.ShapeAppearanceOverlay.CornerSize.50Percent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"/>
+
+  <TextView
+      android:id="@+id/name"
+      style="@style/Theme.SuitMedia.TextView.Regular.14"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/spacing_16"
+      android:textColor="@color/black"
+      android:textAlignment="center"
+      app:layout_constraintTop_toBottomOf="@id/avatar"
+      tools:text="John Doe"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

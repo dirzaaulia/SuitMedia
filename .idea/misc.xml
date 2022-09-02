@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/drawable/bg_bright.xml" value="0.1705" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.103" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1315" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.1315" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1315" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/activity_event.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/activity_guest.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/activity_on_boarding.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/common_toolbar.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/fragment_event_list.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/fragment_event_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/item_event.xml" value="0.2171875" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/item_guest.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/toollbar.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/view_header_welcome.xml" value="0.2171875" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/view_load_state.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/view_onboarding_ornament.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/view_welcome.xml" value="0.264" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/layout/view_welome.xml" value="0.2171875" />
+        <entry key="..\:/Android Studio/Projects/SuitMedia/app/src/main/res/menu/event_menu.xml" value="0.21822916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<paths>
+  <cache-path
+      name="cached_files"
+      path="Android/data/com.dirzaaulia.suitmedia/files/Cache"
+      />
+  <external-path
+      name="my_images"
+      path="Android/data/com.dirzaaulia.suitmedia/files/Pictures"
+      />
+</paths>

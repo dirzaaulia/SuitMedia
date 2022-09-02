@@ -1,0 +1,44 @@
+<resources>
+  <string name="app_name">Suit Media</string>
+  <string name="hint_til_name">Type name here…</string>
+  <string name="hint_til_palindrome">Type text palindrome</string>
+  <string name="check">Check</string>
+  <string name="welcome">Welcome</string>
+  <string name="welcome_description">This is app for suitmedia mobile developer test</string>
+  <string name="copyright">Copyright © 2020 Suitmedia All Rights Reserved.</string>
+  <string name="camera_permission_explain_request">Need camera access permission to continue</string>
+  <string name="storage_permission_explain_request">Need storage access permission to continue</string>
+  <string name="ok">OK</string>
+  <string name="cancel">Cancel</string>
+  <string name="camera_permission_explain_setting">Give camera access permission on setting</string>
+  <string name="storage_permission_explain_setting">Give storage access permission on setting</string>
+  <string name="camera_permission_denied">Camera access permission is denied</string>
+  <string name="storage_permission_denied">Storage access permission is denied</string>
+  <string name="avatar">Avatar</string>
+  <string name="avatar_dialog_chooser_description">Please choose avatar image source</string>
+  <string name="camera">Camera</string>
+  <string name="storage">Storage</string>
+  <string name="take_picture_error">Error occurred when taking picture!</string>
+  <string name="select_files_error">Error occurred when getting files!</string>
+  <string name="next">Next</string>
+  <string name="welcome_form_not_filled_error">Please fill name &amp; palindrome above</string>
+  <string name="palindrome_message">Text is Palindrome</string>
+  <string name="not_palindrome_message">Text is not Palindrome</string>
+  <string name="palindrome_empty">Text is empty. Filled it first</string>
+  <string name="hello_comma">Hello,</string>
+  <string name="choose_event">Choose Event</string>
+  <string name="choose_guest">Choose Guest</string>
+  <string name="name_format">%s %s</string>
+  <string name="guests">Guests</string>
+  <string name="guest_format">%s selected as Guest</string>
+  <string name="event_format">%s selected as Event</string>
+  <string name="retry">Retry</string>
+  <string name="connection_error">There is connection error</string>
+  <string name="unknown_error">Something when wrong</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="search">Search</string>
+  <string name="map">Map</string>
+  <string name="list">List</string>
+  <string name="events">Events</string>
+</resources>
